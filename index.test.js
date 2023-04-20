@@ -4,7 +4,6 @@ const request = require('supertest');
 const seed = require('./db/seedFn');
 const seedData = require('./db/seedData');
 
-
 describe('Endpoints', () => {
     const testUserData = { username: 'bobbysmiles', password: 'youllneverguess' };
     let registerResponse;
